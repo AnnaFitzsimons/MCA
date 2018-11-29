@@ -1,39 +1,23 @@
-
+/* Add your own CSS rules here */
 h1 {
   text-align: center;
-  text-decoration: underline;
   color: white;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 h2 {
-	text-align: left;
-	text-decoration: underline;
-	color: white;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-h3 {
-	text-align: left;
-	text-decoration: underline;
-	color: white;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 p  {color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-ul { 
-font-family: "Trebuchet MS", Helvetica, sans-serif;
-font-size: 12pt; }
-
-a { font-color: pink;
-}
 
 body{
 	background-color:MistyRose;
-	
 }
 
 g[class='note'] {
@@ -52,5 +36,4 @@ nav {
 	color: pink;
 	font-family: "Trebuchet MS", Helvetica, sans-serif; 
 	font-size: 20pt;
-}
 
