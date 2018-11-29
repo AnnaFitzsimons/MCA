@@ -1,6 +1,11 @@
 /* Add your own CSS rules here */
 h1 {
   text-align: center;
+  color: blue;
+}
+
+body{
+	background-color:blue;
 }
 
 g[class='note'] {
@@ -14,3 +19,4 @@ g[class='note'] {
 #controls {
   float: right;
 }
+
