@@ -1,0 +1,26 @@
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+p  {color: white;
+}
+
+body{
+	background-color:MistyRose;
+	
+}
+
+g[class='note'] {
+  color: red;
+}
+
+.highlighted {
+  fill: blue
+}
+
+#controls {
+  float: right;
+}
+
