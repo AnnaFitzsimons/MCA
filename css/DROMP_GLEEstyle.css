@@ -1,0 +1,41 @@
+/* Add your own CSS rules here */
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+p  {color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+body{
+	background-color:MistyRose;
+}
+
+g[class='note'] {
+  color: red;
+}
+
+.highlighted {
+  fill: blue
+}
+
+#controls {
+  float: right;
+}
+
+nav {
+	color: pink;
+	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+	font-size: 20pt;
+
