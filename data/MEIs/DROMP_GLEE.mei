@@ -11,15 +11,15 @@
                     <resp>Anna Fitzsimons</resp>
                 </respStmt>
                 <respStmt>
-                    <persName role="cmp" auth.uri="https://en.wikipedia.org/wiki/Jule_Styne"
+                    <persName role="cmp" authURI="https://en.wikipedia.org/wiki/Jule_Styne"
                         auth="Wikipedia" xml:id="workcreator">Jule Styne</persName>
                 </respStmt>
                 <respStmt>
-                    <persName role="lyr" auth.uri="https://en.wikipedia.org/wiki/Bob_Merrill"
+                    <persName role="lyr" authURI="https://en.wikipedia.org/wiki/Bob_Merrill"
                         auth="Wikipedia" xml:id="worklyricist">Bob Merrill</persName>
                 </respStmt>
                 <respStmt>
-                    <persName role="performer" auth.uri="https://en.wikipedia.org/wiki/Lea_Michele"
+                    <persName role="performer" authURI="https://en.wikipedia.org/wiki/Lea_Michele"
                         auth="Wikipedia" xml:id="workperformer">Lea Michele</persName>
                 </respStmt>
                 <!-- Covered by Lea Michele in the Tv show 'Glee' -->
