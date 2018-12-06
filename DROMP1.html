@@ -58,8 +58,9 @@
           if (xhr.status === OK) {
             var parser = new DOMParser()
             var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
-            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("xml:id="workcreator">Jule Styne</persName>").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
-           
+           document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='workcreator']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='workcreator']").textContent + "</p></a>"			
+           document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='worklyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='worklyricist']").textContent + "</p></a>"			
+           document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='workperformer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='workperformer']").textContent + "</p></a>"
           }
         }
       }
